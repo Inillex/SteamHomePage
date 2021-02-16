@@ -78,20 +78,43 @@ a, p {
 }
 
 #flexbox {
-  display: flexbox;
+  display: grid;
   grid-area: flexbox;
-  align-self: center;
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
   margin: auto;
+  grid-gap: 0px
 }
 
-#google-search-btn {
-  grid-area: google-search-btn;
-  -webkit-appearance: none;
-  background-color: rgba(255, 255, 255, 0.15);
-  color: rgb(166, 166, 166);
-  padding: 10px 20px;
-  border: none;
-  margin: 5px 10px;
+#flexbox-button {
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
-  border-radius: 20px;
+  padding: 10px 12px 10px 10px;
+}
+
+#flexbox-button-imgcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #242424;
+  text-align: center;
+  align-self: center;
+}
+
+#flexbox-button-imgcon img {
+  max-height: 24px;
+  margin: 10px;
+  height: auto;
+  max-width: auto;
+}
+
+#flexbox-button a {
+  margin-top: 4px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  text-align: center;
 }
