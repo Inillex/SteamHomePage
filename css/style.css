@@ -118,8 +118,8 @@ a, p {
 }
 
 #flexbox-button a {
-  margin-top: 4px;
   color: #fff;
+  margin-top: 4px;
   font-size: 12px;
   line-height: 16px;
   display: flex;
