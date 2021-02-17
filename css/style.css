@@ -119,11 +119,12 @@ a, p {
 
 #flexbox-button a {
   margin-top: 4px;
-  color: #fffffff;
+  color: #fff;
   font-size: 12px;
   line-height: 16px;
   display: flex;
   white-space: nowrap;
   justify-content: center;
   text-align: center;
+  text-decoration: none;
 }
